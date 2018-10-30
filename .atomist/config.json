@@ -1,0 +1,25 @@
+{
+  "shortName": "wyatt-react-app",
+  "deployType": "cloudfront",
+  "buildSetupEnvironment": "MGMT",
+  "environments": {
+    "development": {
+      "account": "DMSDEV",
+      "region": "us-east-1"
+    },
+    "integration": {
+      "account": "DMSINT",
+      "region": "us-east-1"
+    },
+    "production": {
+      "account": "DMSPROD",
+      "region": "us-east-1"
+    }
+  },
+  "materialChangeExpressions": [
+    "*\\.(ts|js)$.*"
+  ],
+  "compileBuildSpecFilePath": "buildspec/buildspec.yml",
+  "versionFilePath": "package.json",
+  "bucketName": "wyatt-react-app"
+}
