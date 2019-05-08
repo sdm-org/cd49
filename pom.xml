@@ -55,7 +55,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>${artifact.name}</finalName>
+		<finalName>cd49</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
